@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 Widget defaultButton({
-  double conthight=70,
+  double containerHeight=70,
   double width=double.infinity,
   double radius=5,
   Color color=Colors.blue,
@@ -8,7 +8,7 @@ Widget defaultButton({
   required Function,
   bool isUpperCase=true,
 })=>Container(
-  height: conthight,
+  height: containerHeight,
   width: width,
   child:
   MaterialButton(
